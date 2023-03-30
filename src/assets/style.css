@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+}
+
+.game {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.game-cube {
+  display: inherit;
+  justify-content: inherit;
+  align-items: inherit;
+  width: 600px;
+  height: 600px;
+  background-color: aquamarine;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.game-row {
+  width: 100%;
+}
+.game-item {
+  margin: 10px;
+  width: 120px;
+  height: 120px;
+  border: 1px solid black;
+}
+.table {
+  margin-top: 50px;
+  width: 600px;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+.id, .title, .imdb, .year {
+  cursor: pointer;
+}
